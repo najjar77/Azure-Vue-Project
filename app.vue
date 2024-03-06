@@ -5,8 +5,11 @@ import Toolbar from "primevue/toolbar";
 </script>
 
 <template>
-  <Button label="Hello" />
-  <Button />
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
 
 <style scoped></style>
