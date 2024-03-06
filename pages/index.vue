@@ -1,7 +1,18 @@
-<script setup></script>
+<script setup>
+import FileUpload from "primevue/fileupload";
+</script>
 
 <template>
-  <Button label="Index" icon="pi pi-search" />
+  <div class="centered-container">
+    <UploadFileSelection />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+</style>
